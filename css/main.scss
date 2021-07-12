@@ -4,6 +4,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Poppins', arial;
+  background: #e0e5ec;
 }
 
 ul {
@@ -226,5 +227,36 @@ section {
   }
   .hero .content {
     padding: 6em 8em 6em 10em;
+  }
+}
+
+.container {
+  margin: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.neu {
+  height: 500px;
+  width: 400px;
+  background: #e0e5ec;
+  border-radius: 25px;
+  box-shadow: -8px -8px 12px rgb(240, 239, 239), 8px 8px 12px #929fb3;
+}
+.content-neu {
+  .myImg {
+    width: 100%;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 12px;
+    text-align: center;
   }
 }
